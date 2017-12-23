@@ -1,5 +1,43 @@
-// @import 'reset';
+@import url(
+'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+@import "reset";
 
 body{
-  background: limegreen;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h1{
+  font-weight: 100;
+  font-size: 50px;
+}
+
+
+.wrapper{
+  display: grid;
+}
+
+.box-1{
+  background: red;
+}
+
+.box-2{
+  background: yellow;
+}
+
+.box-3{
+  background: purple;
+}
+
+.box-4{
+  background: blue;
+}
+
+.box-5{
+  background: orange;
+}
+
+.box-6{
+  background: grey;
 }
