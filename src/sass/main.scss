@@ -20,17 +20,19 @@ h1{
 
 .wrapper{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 200px 200px 200px 200px;
   //grid-template-rows: 40px 450px 50px;
   grid-auto-rows: minmax(200px, auto);
   justify-items: stretch;
   align-items: stretch;
+  justify-content: space-around;
+  
 }
 
 .box-1{
   background: red;
-  grid-column: 3/4;
-  grid-row: 2/4;
+  grid-column: 2/3;
+  grid-row: 2/3;
   padding: 20px;
 }
 
